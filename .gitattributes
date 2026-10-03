@@ -1,0 +1,7 @@
+# Keep sources and shell scripts LF so they run correctly under WSL/Linux.
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.png binary
+*.docx binary
+*.pptx binary
+*.pdf binary

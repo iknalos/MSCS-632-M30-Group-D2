@@ -1,0 +1,12 @@
+[package]
+name = "concurrent_chat"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time"] }
+chrono = "0.4"
+
+[[bin]]
+name = "concurrent_chat"
+path = "src/main.rs"
