@@ -1,4 +1,4 @@
-target/
-Cargo.lock
-*.exe
-chat_go
+expense_tracker
+*.o
+__pycache__/
+*.pyc
